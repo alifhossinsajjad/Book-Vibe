@@ -1,11 +1,14 @@
 import React from 'react';
+import { NavLink } from 'react-router';
 
 const Navbar = () => {
 
     const links = <>
     
-    <li className='ml-2'>Home</li>
-    <li className='ml-2'>About</li>
+    
+    <NavLink className='ml-2' to={'/'}>Home</NavLink>
+    <NavLink className='ml-2' to={'/about'}>About</NavLink>
+    
 
     
     </>
@@ -24,7 +27,7 @@ const Navbar = () => {
         {links}
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <a className="btn btn-ghost text-xl">Books</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
