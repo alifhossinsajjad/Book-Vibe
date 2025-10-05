@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, {  useState } from 'react';
 import BookCard from '../BookCard/BookCard';
-import { useLoaderData } from 'react-router';
+import { } from 'react-router';
 
 const Books = ({data}) => {
   
