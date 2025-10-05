@@ -1,13 +1,14 @@
 import React from 'react';
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
 
 const Navbar = () => {
 
     const links = <>
     
     
-    <NavLink className='ml-2' to={'/'}>Home</NavLink>
-    <NavLink className='ml-2' to={'/about'}>About</NavLink>
+    <Link className='ml-2' to={'/'}>Home</Link>
+    <Link className='ml-2' to={'/about'}>About</Link>
+    <Link className='ml-2' to={'/readList'}>Read List</Link>
     
 
     
